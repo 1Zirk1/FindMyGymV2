@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+   
+    <div>
+        <nav class="bg-img">
+      
+
+      <div class="slogan">
+        <a>FindMyGym</a>
+        <p>
+          Make "Gyming" more comfortable
+        </p>
+      </div>
+
+      <div class="bg-container">
+        <div class="topnav">
+          <a href="/index.html">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="/about.html">About</a>
+        </div>
+      <hr size="1px" width="100%" color="#000000">  
+        <nav class="mobile">
+          <button class="menu-button" onclick="toggleMenu()">☰</button>
+
+          <div class="nav-links hidden" id="mobile-menu">
+            <button class="close-menu" onclick="toggleMenu()">
+              X
+            </button>
+
+            <a href="/pricing.html">Pricing</a>
+            <a href="/about.html">About</a>
+            <a href="in-progress.html">Get Started</a>
+          </div>
+        </nav>
+      </div>
+    </nav>
+    </div>
+  
+   <div class="container" id="features">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="main_heading">
+				<h1>Features</h1>
+				<div  class="text-center"><span class="underline"></span></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div>
+			<div class="features-div">
+         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-tags-fill" viewBox="0 0 16 16">
+         <path d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2zm3.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+         <path d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043-7.457-7.457z"/>
+          </svg>
+			   <h4>Cheap</h4>
+			   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+			</div>
+		</div>
+		<div>
+			<div class="features-div">
+			   <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/000000/bed.png"/>
+			   <h4>Comfortable</h4>
+			   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+			</div>
+		</div>
+		<div>
+			<div class="features-div">
+			   <img width="30" height="30" src="https://img.icons8.com/ios/50/000000/online-support.png"/>
+			   <h4>24/7 Support</h4>
+			   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+			</div>			
+		</div>
+		<div>
+			<div class="features-div">
+			   <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/000000/web-design.png"/>
+			   <h4>Modern design</h4>
+			   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+			</div>			
+		</div>
+	</div>
+</div>
+ 
+ 
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form>
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+        <div class="fcf-credit" id="fcf-credit">
+        
+        </div>
+
+    </form>
+    </div>
+
+ 
+  
+   <footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">FindMyGym</h1>
+        
+    <h2>Contact</h2>
+    
+    <address>
+      نهاية، Airport St, Baghdad, Iraak<br>
+          
+      <a class="footer__btn">Email Us:</a>
+      erik.niglas@gmail.com
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Important</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Important</a>
+        </li>
+
+        <li>
+          <a href="#">Important</a>
+        </li>
+            
+        <li>
+          <a href="#">Important</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Important</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">Important</a>
+        </li>
+        
+        <li>
+          <a href="#">Important</a>
+        </li>
+        
+        <li>
+          <a href="#">Important</a>
+        </li>
+        
+        <li>
+          <a href="#">Important</a>
+        </li>
+        
+        <li>
+          <a href="#">Important</a>
+        </li>
+        
+        <li>
+          <a href="#">Important</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Important</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Important</a>
+        </li>
+        
+        <li>
+          <a href="#">Important</a>
+        </li>
+        
+        <li>
+          <a href="#">Important</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>&copy; 2021 FindMyGym All rights reserved.</p>
+    
+    <div class="legal__links">
+    
+    </div>
+  </div>
+</footer>
+    
+  </body>
+</html>
